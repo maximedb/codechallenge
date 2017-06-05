@@ -15,6 +15,6 @@ The concept is straight-forward:
 
 The main bottleneck of this interpret is its limited scope, it can only interpret console.log and setTimeout.
 
-Second, it assumes that what's iniside a function will be a one line command: function(){console.log(1)} It cannot handle mulitple commands within a function call: function(){console.log(1); console.log(2)}.
+Second, it assumes that what's iniside a function will be a one line command: `function(){console.log(1)}` It cannot handle mulitple commands within a function call: `function(){console.log(1); console.log(2)}`.
 
 Third, efficiency is lost with the while loop. Resources could be used to do something else while waiting.
