@@ -1,4 +1,4 @@
-# Code Challenge
+# Interpreter
 
 The first interpreter I have ever built. It is quite basic and can only interpret console.log() & setTimeout().
 
